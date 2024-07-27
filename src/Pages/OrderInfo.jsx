@@ -46,6 +46,20 @@ const OrderInfo = () => {
         discount: 10.0,
         taxType: "SGST",
       },
+      {
+        description: "Item 4",
+        unitPrice: 400.0,
+        quantity: 4,
+        discount: 10.0,
+        taxType: "SGST",
+      },
+      {
+        description: "Item 5",
+        unitPrice: 400.0,
+        quantity: 4,
+        discount: 10.0,
+        taxType: "SGST",
+      }
     ],
   });
 
@@ -321,7 +335,7 @@ const OrderInfo = () => {
         <>
           <div
             ref={targetRef}
-            className="text-xl relative w-[794px] h-[1123px] mx-auto bg-white p-10"
+            className="text-xl w-[794px]  mx-auto bg-white p-10"
           >
             <div className="flex">
               <div className="flex-1">
@@ -390,7 +404,7 @@ const OrderInfo = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="min-h-[500px]">
               <table className="w-full border-black border border-collapse">
                 <thead>
                   <tr className="border">
@@ -452,7 +466,7 @@ const OrderInfo = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute bottom-0 left-0 p-4 w-full text-center">
+            <div className="pt-10 w-full text-center">
               <div className="flex justify-between">
                 <div className="flex-1">
                   <p className="font-bold">Seller: Subrata Sarker</p>
@@ -469,7 +483,6 @@ const OrderInfo = () => {
                 </div>
               </div>
             </div>
-            <div></div>
           </div>
         </>
       )}

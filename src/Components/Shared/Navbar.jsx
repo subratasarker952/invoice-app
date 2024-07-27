@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
+import logo from '/logo.png'
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between h-10 items-center  print:hidden">
+    <div className="flex justify-between bg-white items-center  print:hidden">
       <div>
-        <img src="" alt="" />
+        <img className="w-60" src={logo} alt="" />
       </div>
       <div>
         <NavLink className={"p-4"} to={"/"}>
