@@ -4,7 +4,7 @@ import Navbar from "../Components/Shared/Navbar";
 const MainLayout = () => {
   return (
     <>
-      <div className="max-w-5xl mx-auto bg-slate-200">
+      <div className="max-w-5xl mx-auto ">
         <Navbar />
         <div></div>
         <div>
